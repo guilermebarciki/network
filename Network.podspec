@@ -9,7 +9,8 @@ Pod::Spec.new do |s|
   s.source       = { :git => 'https://github.com/guilermebarciki/network.git', :tag => s.version }
   s.ios.deployment_target = '13.0'
   s.swift_version = '5.0'
-s.source_files = 'Network/Network/**/*.{swift,h}'
+s.source_files = 'Network/**/*.{swift,h}'
+
 
 
 end
