@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'Network'
-  s.version      = '0.1.0'
+  s.version      = '0.2.0'
   s.summary      = 'Camada de rede reutilizável em Swift.'
   s.description  = 'Abstração para chamadas de rede usando URLSession.'
   s.homepage     = 'https://github.com/guilermebarciki/network'
