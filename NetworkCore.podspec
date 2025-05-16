@@ -15,16 +15,17 @@ Pod::Spec.new do |s|
     Foco em testabilidade e extensibilidade.
   DESC
 
-  s.homepage     = 'https://github.com/seunome/NetworkCore'   # Link para o repositório
+  s.homepage     = 'https://github.com/guilermebarciki/network'   # Link para o repositório
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author       = { 'Seu Nome' => 'email@exemplo.com' }
+  s.author       = { 'Guilerme Barciki' => 'guilermebarciki@gmail.com' }
 
   s.source       = { :git => 'https://github.com/seunome/NetworkCore.git', :tag => s.version }
 
   s.ios.deployment_target = '13.0'             # Versão mínima do iOS
   s.swift_version = '5.0'
 
-  s.source_files = 'NetworkCore/**/*.{swift}'  # Caminho para os arquivos fonte
+  s.source_files = 'Network/Network/**/*.{swift}'
+
   s.exclude_files = 'Example'
 end
 
