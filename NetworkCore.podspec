@@ -19,7 +19,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Guilerme Barciki' => 'guilermebarciki@gmail.com' }
 
-  s.source       = { :git => 'https://github.com/seunome/NetworkCore.git', :tag => s.version }
+s.source = { :git => 'https://github.com/guilermebarciki/network.git', :tag => s.version }
+
 
   s.ios.deployment_target = '13.0'             # Versão mínima do iOS
   s.swift_version = '5.0'
